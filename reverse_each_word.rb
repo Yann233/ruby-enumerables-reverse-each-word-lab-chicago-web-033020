@@ -1,7 +1,7 @@
 def reverse_each_word(array)
-array.split(" ")
+array.split(' ')
 new_array = array.collect{|word| word.reverse}
-new_array.join(" ")
+new_array.join(' ')
 end
 
 #def reverse_each_word(array)
